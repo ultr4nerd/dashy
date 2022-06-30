@@ -14,6 +14,7 @@ appConfig:
       hash: 7bcb51f75f9a7e731b53db1c6a6c0db49dbfefb1175592c9c2a1bda3e61691c9
       type: admin
     enableGuestAccess: true
+  lang: es
 
 sections:
 - name: Getting Started
