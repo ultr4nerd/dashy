@@ -1,19 +1,20 @@
 ---
-# Page meta info, like heading, footer text and nav links
 pageInfo:
-  title: Dashy
-  description: Welcome to your new dashboard!
+  title: El Dashy de Meme
+  description: El dashboard de mi vida
   navLinks:
   - title: GitHub
-    path: https://github.com/Lissy93/dashy
-  - title: Documentation
-    path: https://dashy.to/docs
+    path: https://github.com/ultr4nerd
 
-# Optional app settings and configuration
 appConfig:
-  theme: colorful
+  theme: crayola
+  auth:
+    users:
+    - user: ultr4nerd
+      hash: 7bcb51f75f9a7e731b53db1c6a6c0db49dbfefb1175592c9c2a1bda3e61691c9
+      type: admin
+    enableGuestAccess: true
 
-# Main content - An array of sections, each containing an array of items
 sections:
 - name: Getting Started
   icon: fas fa-rocket
